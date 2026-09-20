@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task Sphere</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f6ff;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 15px;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #e8e8e8;
+        }
+
+        nav a {
+            margin: 20px;
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        section {
+            margin: 15px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 700px;
+            height: 350px;
+            border: none;
+        }
+
+        input, textarea, select {
+            width: 90%;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        button {
+            padding: 10px 25px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #e8e8e8;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Company Name -->
+    <header>
+        <h1>Task Sphere</h1>
+        <p>Project and Task Management Software</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#video">Video</a>
+        <a href="#form">Form</a>
+        <a href="#location">Location</a>
+    </nav>
+
+    <!-- Audio -->
+    <section id="home">
+        <h2>Play Music</h2>
+
+        <audio controls>
+            <source src="C:\Users\selvarani\Downloads\audio.mpeg" controls type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Photo -->
+    <section id="about">
+        <h2>Task Sphere</h2>
+
+        <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+            alt="Team working on a project">
+
+        <p>
+            Task Sphere is a project and task management software
+            that helps teams organize, assign and track their tasks.
+        </p>
+    </section>
+
+    <!-- YouTube Video -->
+    <section id="video">
+        <h2>Project Management Video</h2>
+
+        <iframe
+            src="https://www.youtube.com/embed/M7lc1UVf-VE"
+            title="Project Management Video"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Form -->
+    <section id="form">
+        <h2>Task Sphere Registration Form</h2>
+
+        <form>
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name"><br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter your email"><br>
+
+            <label>Project Name:</label><br>
+            <input type="text" placeholder="Enter project name"><br>
+
+            <label>Task Type:</label><br>
+            <select>
+                <option>Development</option>
+                <option>Design</option>
+                <option>Testing</option>
+                <option>Documentation</option>
+            </select><br>
+
+            <label>Task Description:</label><br>
+            <textarea rows="5"
+                placeholder="Enter task description"></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Google Map -->
+    <section id="location">
+        <h2>Our Location</h2>
+
+        <iframe
+            src="https://www.google.com/maps?q=Chennai,India&output=embed"
+            allowfullscreen
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Task Sphere | Project and Task Management Software</p>
+    </footer>
+
+</body>
+
+</html>
